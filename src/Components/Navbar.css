@@ -1,41 +1,49 @@
 nav {
     position: fixed;
     top: 0;
-    height: 50px;
+    height: 55px;
     width: 100%;
-    background: black;
+    background:black;
 }
 
+.logo{
+    height: 43px;
+    width: 46px;
+    border-radius: 45px;
+    display: block;
+    padding: 6px;
+    position: fixed;
+    z-index: 100;
+}
 
 .list {
     list-style-type: none;
+    margin: 1px;
     background: black;
     height: 100%;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
-    position: relative;
-}
-.items {
-    margin-right: 18px;
-    font-size: 18px;
-    text-transform: uppercase;
-    color: #f1f1f1;
-    cursor: pointer;
+    
 }
 
+.items {
+    margin-right: 32px;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+}
 
 .btn{
     display: none;
     position: absolute;
-    right: 10px;
     top: 7px;
     padding: 5px;
-    color: #000;
+    color: white;
     font-size: 18px;
     right: 1rem;
-    bottom: 0.5rem;
-    border-radius: 45%;
 }
 
 
@@ -45,12 +53,12 @@ nav {
         height: auto;
     }
     .items:nth-child(1){
-        border-top: 1px solid rgba(255, 255, 255, 0.555);
+        border-top: 1px solid white;
         margin-top: 50px;
     }
     .items {
         width: 100%;
-        border-top: 1px solid rgba(255, 255, 255, 0.555);
+        border-top: 1px solid white;
         text-align: center;
         margin-right: 0px;
         padding: 20px 0;
